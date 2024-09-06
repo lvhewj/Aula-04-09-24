@@ -24,3 +24,33 @@ input, textarea, select {
     outline: none;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
+
+/* Efeito ao focar nos campos */
+input:focus, textarea:focus, select:focus {
+    border-color: #9d4edd; /* Cor da borda ao focar */
+    box-shadow: 0 0 5px rgba(157, 78, 221, 0.5); /* Sombra roxa ao focar */
+}
+
+/* Estilo dos botões */
+button {
+    padding: 10px 20px;
+    background-color: #7b2cbf; /* Cor roxa do botão */
+    color: #fff; /* Cor do texto */
+    border: none;
+    border-radius: 8px; /* Bordas arredondadas */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+button:hover {
+    background-color: #9d4edd; /* Cor roxa mais clara ao passar o mouse */
+    transform: scale(1.05); /* Efeito de leve aumento */
+}
+
+/* Estilo do corpo da página */
+body {
+    background-color: #f0e7ff; /* Cor de fundo roxa clara */
+    color: #333; /* Cor do texto principal */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
