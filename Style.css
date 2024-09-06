@@ -47,3 +47,10 @@ button:hover {
     background-color: #9d4edd; /* Cor roxa mais clara ao passar o mouse */
     transform: scale(1.05); /* Efeito de leve aumento */
 }
+
+/* Estilo do corpo da página */
+body {
+    background-color: #f0e7ff; /* Cor de fundo roxa clara */
+    color: #333; /* Cor do texto principal */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+}
